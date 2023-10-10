@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Musica
+comment0.text=\r\n\ Guarda\ os\ detalhes\ deuma\ m\u00FAsica,\ tais\ como,\r\n\ o\ artista,\ o\ t\u00EDtulo\ e\ o\ nome\ do\ arquivo.\r\n\ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023.10.10\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=artista\ titulo\ nomeDoArquivo
+comment1.target=Musica(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ de\ objetos\ da\ classe\ m\u00FAsica.\r\n\ @param\ artista\ O\ artista\ da\ m\u00FAsica.\r\n\ @param\ titulo\ O\ t\u00EDtulo\ da\ m\u00FAsica.\r\n\ @param\ nomeDoArquivo\ O\ arquivo\ da\ m\u00FAsica.\ \r\n
+comment2.params=nomeDoArquivo
+comment2.target=Musica(java.lang.String)
+comment2.text=\r\n\ Construtor\ de\ objetos\ da\ classe\ m\u00FAsica.\r\n\ Este\ construtor\ seria\ usado\ para\ nomes\ de\ arquivos\r\n\ a\ partir\ dos\ quais\ n\u00E3o\ conseguimos\ extrair\ os\r\n\ detalhes\ de\ artista\ e\ t\u00EDtulo.\r\n\ @param\ nomeDoArquivo\ O\ arquivo\ da\ m\u00FAsica.\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ obterArtista()
+comment3.text=\r\n\ Retorna\ o\ artista.\r\n\ @return\ O\ artista.\r\n
+comment4.params=
+comment4.target=java.lang.String\ obterTitulo()
+comment4.text=\r\n\ Retorna\ o\ t\u00EDtulo.\r\n\ @return\ O\ t\u00EDtulo.\r\n
+comment5.params=
+comment5.target=java.lang.String\ obterNomeDoArquivo()
+comment5.text=\r\n\ Retorna\ o\ nome\ do\ arquivo.\r\n\ @return\ O\ nome\ do\ arquivo.\r\n
+comment6.params=
+comment6.target=java.lang.String\ obterDetalhes()
+comment6.text=\r\n\ Retorna\ os\ detalhes\ da\ m\u00FAsica\:\ artista,\ t\u00EDtulo\ e\ nome\ do\ arquivo.\r\n\ @return\ Os\ detalhes\ da\ m\u00FAsica.\r\n
+comment7.params=artista\ titulo\ nomeDoArquivo
+comment7.target=void\ definirDetalhes(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment7.text=\r\n\ Define\ os\ detalhes\ da\ m\u00FAsica.\r\n\ @param\ artista\ O\ artista\ da\ m\u00FAsica.\r\n\ @param\ titulo\ O\ t\u00EDtulo\ da\ m\u00FAsica.\r\n\ @param\ nomeDoArquivo\ O\ arquivo\ da\ m\u00FAsica.\ \r\n
+numComments=8

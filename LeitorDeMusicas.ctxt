@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LeitorDeMusicas
+comment0.text=\r\n\ Uma\ classe\ auxiliar\ para\ nossa\ aplica\u00E7\u00E3o\ de\ m\u00FAsica.\ \r\n\ Esta\ classe\ pode\ ler\ arquivos\ de\ uma\ dada\ pasta\ com\ um\ sufixo\ especificado.\r\n\ Ela\ interpretar\u00E1\ que\ o\ nome\ do\ arquivo\ tem\ a\ informa\u00E7\u00E3o\ do\ artista\ e\ do\r\n\ t\u00EDtulo\ da\ m\u00FAsica.\r\n\ \r\n\ Espera-se\ que\ os\ nomes\ dos\ arquivos\ de\ m\u00FAsica\ seguem\ um\ formato\ padr\u00E3o\ do\r\n\ do\ nome\ do\ artista\ e\ do\ t\u00EDtulo\ da\ m\u00FAsica,\ separados\ por\ h\u00EDfen.\r\n\ Ex.\:\ TheBeatles-HereComesTheSun.mp3\r\n\ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023.10.10\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=LeitorDeMusicas()
+comment1.text=\r\n\ Cria\ um\ leitor\ de\ m\u00FAsicas,\ pronto\ para\ ler\ as\ m\u00FAsicas\ da\ pasta\ de\ m\u00FAsicas.\r\n
+comment2.params=pasta\ sufixo
+comment2.target=java.util.ArrayList\ lerMusicas(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ L\u00EA\ arquivos\ de\ m\u00FAsica\ com\ o\ sufixo\ informado\ da\ pasta\ passada.\r\n\ @param\ pasta\ A\ pasta\ onde\ as\ m\u00FAsicas\ ser\u00E3o\ procuradas.\r\n\ @param\ sufixo\ O\ sufixo\ que\ indica\ o\ tipo\ de\ arquivo.\r\n
+comment3.params=arquivo
+comment3.target=Musica\ decodificarDetalhes(java.io.File)
+comment3.text=\r\n\ Tenta\ decodificar\ os\ detalhes\ do\ artista\ e\ do\ t\u00EDtulo\r\n\ a\ partir\ do\ nome\ do\ arquivo.\r\n\ Assume\ que\ os\ detalhes\ est\u00E3o\ na\ forma\:\r\n\ \ \ \ \ artista-titulo.mp3\r\n\ @param\ arquivo\ O\ arquivo\ da\ m\u00FAsica.\r\n\ @return\ Um\ objeto\ m\u00FAsica\ contendo\ os\ detalhes\ encontrados.\r\n
+numComments=4
